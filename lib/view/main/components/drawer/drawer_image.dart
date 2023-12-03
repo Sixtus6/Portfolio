@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_portfolio/view%20model/responsive.dart';
 
 import '../../../../res/constants.dart';
 
@@ -26,12 +27,14 @@ class DrawerImage extends StatelessWidget {
           ]),
       child: ClipRRect(
           borderRadius: BorderRadius.circular(50),
-          child: Transform.rotate(
-              angle: 0.1,
-              child: Image.asset(
-                'assets/images/profile.png',
-                fit: BoxFit.cover,
-              ))),
+          child: Image.network(
+            Responsive.isDesktop(context) ||
+                    Responsive.isExtraLargeScreen(context) ||
+                    Responsive.isTablet(context)
+                ? 'assets/images/pro.png'
+                : 'assets/images/profile2.png',
+            fit: BoxFit.cover,
+          )),
     );
   }
 }
