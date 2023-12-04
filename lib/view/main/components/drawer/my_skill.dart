@@ -95,7 +95,7 @@ class MySKills extends StatelessWidget {
             title: 'Firebase',
             image: 'assets/icons/firebase.png'),
         AnimatedLinearProgressIndicator(
-            percentage: 0.78, title: 'Prisma', image: 'assets/images/db.png'),
+            percentage: 0.8, title: 'Prisma', image: 'assets/images/db.png'),
         AnimatedLinearProgressIndicator(
             percentage: 0.90, title: 'MySQL', image: 'assets/images/db.png'),
         AnimatedLinearProgressIndicator(
