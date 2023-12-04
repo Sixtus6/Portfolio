@@ -24,6 +24,7 @@ class AnimatedLinearProgressIndicator extends StatelessWidget {
                     image!,
                     height: 15,
                     width: 15,
+                    color: ,
                     fit: BoxFit.cover,
                   ),
                   const SizedBox(
@@ -69,12 +70,6 @@ class MySKills extends StatelessWidget {
         AnimatedLinearProgressIndicator(
             percentage: 0.9, title: 'Dart', image: 'assets/icons/dart.png'),
         AnimatedLinearProgressIndicator(
-            percentage: 0.6,
-            title: 'Firebase',
-            image: 'assets/icons/firebase.png'),
-        AnimatedLinearProgressIndicator(
-            percentage: 0.75, title: 'Prisma', image: 'assets/images/db.png'),
-        AnimatedLinearProgressIndicator(
             percentage: 0.93,
             title: 'Responsive Design',
             image: 'assets/icons/flutter.png'),
@@ -87,11 +82,45 @@ class MySKills extends StatelessWidget {
             title: 'Provider',
             image: 'assets/icons/bloc.png'),
         AnimatedLinearProgressIndicator(
-            percentage: 0.6, title: 'MobX', image: 'assets/icons/bloc.png'),
+            percentage: 0.76, title: 'MobX', image: 'assets/icons/bloc.png'),
         AnimatedLinearProgressIndicator(
             percentage: 0.91,
             title: 'Flutter Web3',
             image: 'assets/icons/dart.png'),
+        AnimatedLinearProgressIndicator(
+            percentage: 0.87,
+            title: 'Firebase',
+            image: 'assets/icons/firebase.png'),
+        AnimatedLinearProgressIndicator(
+            percentage: 0.78, title: 'Prisma', image: 'assets/images/db.png'),
+        AnimatedLinearProgressIndicator(
+            percentage: 0.90, title: 'MySQL', image: 'assets/images/db.png'),
+        AnimatedLinearProgressIndicator(
+            percentage: 0.80, title: 'Postgres', image: 'assets/images/db.png'),
+        AnimatedLinearProgressIndicator(
+            percentage: 0.84, title: 'MongoDB', image: 'assets/images/db.png'),
+        AnimatedLinearProgressIndicator(
+            percentage: 0.93, title: 'MySQL', image: 'assets/images/db.png'),
+        AnimatedLinearProgressIndicator(
+            percentage: 0.90, title: 'Redis', image: 'assets/images/redis.png'),
+        AnimatedLinearProgressIndicator(
+            percentage: 0.96,
+            title: 'JavaScript',
+            image: 'assets/images/js2.png'),
+        AnimatedLinearProgressIndicator(
+            percentage: 0.95,
+            title: 'ExpressJS',
+            image: 'assets/images/js.png'),
+        AnimatedLinearProgressIndicator(
+            percentage: 0.95, title: 'NodeJS', image: 'assets/images/node.png'),
+        AnimatedLinearProgressIndicator(
+            percentage: 0.85,
+            title: 'TypeScript',
+            image: 'assets/images/ts2.png'),
+        AnimatedLinearProgressIndicator(
+            percentage: 0.85,
+            title: 'TypeScript',
+            image: 'assets/images/solidity.png'),
       ],
     );
   }
