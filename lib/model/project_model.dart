@@ -9,9 +9,9 @@ class Project {
 List<Project> projectList = [
   Project(
     'MeBook',
-    'Presenting "MeBook" - a Flutter UI application that invites you to indulge in a delightful coffee adventure. Immerse yourself in the world of rich aroma and flavor as you browse through an exquisite selection of specialty coffees. With a user-friendly interface, exploring different blends and discovering their unique details becomes a delightful experience.',
+    'Presenting "MeBook" - a Flutter UI application that allows user to Explore a rich library of books across genres with a stunning, user-friendly interface. Discover, read, and immerse yourself in captivating stories effortlessly',
     'assets/images/coffee.png',
-    'https://github.com/Hamad-Anwar/Coffe-Shop-Beautifull-UI',
+    'https://github.com/Sixtus6/Ebook',
   ),
   Project(
     'Car Controller Application UI',
