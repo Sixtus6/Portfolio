@@ -17,16 +17,14 @@ class ImageViewer {
               height: MediaQuery.of(context).size.height,
               width: MediaQuery.of(context).size.width,
               child: Scaffold(
-                backgroundColor: Colors.black,
-                body: Container(
+                  backgroundColor: Colors.black,
+                  body: Container(
                     color: Colors.white,
                     child: Center(
-                      child: PhotoView(imageProvider: AssetImage(image))
-                      ),
-                    )),
-              ),
+                        child: PhotoView(imageProvider: AssetImage(image))),
+                  )),
             ),
-
+          ),
         );
       },
     );
