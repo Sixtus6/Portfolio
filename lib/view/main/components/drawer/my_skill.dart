@@ -24,7 +24,10 @@ class AnimatedLinearProgressIndicator extends StatelessWidget {
                     image!,
                     height: 15,
                     width: 15,
-                    color: ,
+                    color: title.toLowerCase() == "solidity" ||
+                            title.toLowerCase() == "etherjs"
+                        ? Colors.white
+                        : Colors.transparent,
                     fit: BoxFit.cover,
                   ),
                   const SizedBox(
@@ -118,8 +121,10 @@ class MySKills extends StatelessWidget {
             title: 'TypeScript',
             image: 'assets/images/ts2.png'),
         AnimatedLinearProgressIndicator(
-            percentage: 0.85,
-            title: 'TypeScript',
+            percentage: 0.95, title: 'EtherJS', image: 'assets/images/js.png'),
+        AnimatedLinearProgressIndicator(
+            percentage: 0.93,
+            title: 'Solidity',
             image: 'assets/images/solidity.png'),
       ],
     );
