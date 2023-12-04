@@ -19,7 +19,7 @@ class Knowledges extends StatelessWidget {
           ),
         ),
         KnowledgeText(knowledge: 'Flutter, Dart'),
-        KnowledgeText(knowledge: ' Cyber Security, Ethical Hacking'),
+        KnowledgeText(knowledge: 'Cyber Security, Ethical Hacking'),
         KnowledgeText(knowledge: 'Git, Github'),
         KnowledgeText(knowledge: 'Unix, Linux'),
         KnowledgeText(knowledge: 'Blockchain, Web3 '),
