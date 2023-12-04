@@ -9,13 +9,13 @@ class Project {
 List<Project> projectList = [
   Project(
     'MeBook',
-    'Presenting "MeBook" - A Flutter UI application that allows user to Explore a rich library of books across genres with a stunning, user-friendly interface. Discover, read, and immerse yourself in captivating stories effortlessly.',
+    'A Flutter UI application that allows user to Explore a rich library of books across genres with a stunning, user-friendly interface. Discover, read, and immerse yourself in captivating stories effortlessly.',
     'assets/images/coffee.png',
     'https://github.com/Sixtus6/Ebook',
   ),
   Project(
     'MUUV',
-    'Presenting "MUUV" - A cutting-edge ride-hailing Flutter app with a stunning user interface. Effortlessly select your destination, book a ride, and relax as a driver arrives promptly to take you where you need to go. Enjoy a stress-free journey, tracked in real-time, all designed for your ease and comfort.',
+    'A cutting-edge ride-hailing Flutter app with a stunning user interface. Effortlessly select your destination, book a ride, and relax as a driver arrives promptly to take you where you need to go. Enjoy a stress-free journey, tracked in real-time, all designed for your ease and comfort.',
     'assets/images/car.png',
     'https://github.com/Sixtus6/MUUV',
   ),
