@@ -9,15 +9,15 @@ class Project {
 List<Project> projectList = [
   Project(
     'MeBook',
-    'Presenting "MeBook" - a Flutter UI application that allows user to Explore a rich library of books across genres with a stunning, user-friendly interface. Discover, read, and immerse yourself in captivating stories effortlessly',
+    'Presenting "MeBook" - A Flutter UI application that allows user to Explore a rich library of books across genres with a stunning, user-friendly interface. Discover, read, and immerse yourself in captivating stories effortlessly.',
     'assets/images/coffee.png',
     'https://github.com/Sixtus6/Ebook',
   ),
   Project(
-    'Car Controller Application UI',
-    'Car Control Dashboard is a user-friendly mobile application built using Flutter and powered by GetX for efficient state management. Enjoy a modern and intuitive design that adapts to various screen sizes, Interact with dynamic car controls, including speed, steering, and temperature. Realistic animations enhance the visual appeal, making it feel like you are controlling a real car!',
+    'MUUV',
+    'Presenting "MUUV" - A cutting-edge ride-hailing Flutter app with a stunning user interface. Effortlessly select your destination, book a ride, and relax as a driver arrives promptly to take you where you need to go. Enjoy a stress-free journey, tracked in real-time, all designed for your ease and comfort.',
     'assets/images/car.png',
-    'https://github.com/Hamad-Anwar/Car-Controller-Getx-Flutter',
+    'https://github.com/Sixtus6/MUUV',
   ),
   Project(
       'Neumorphic Clockify',
