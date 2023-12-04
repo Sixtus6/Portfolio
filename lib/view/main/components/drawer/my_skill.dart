@@ -97,8 +97,6 @@ class MySKills extends StatelessWidget {
         AnimatedLinearProgressIndicator(
             percentage: 0.8, title: 'Prisma', image: 'assets/images/db.png'),
         AnimatedLinearProgressIndicator(
-            percentage: 0.90, title: 'MySQL', image: 'assets/images/db.png'),
-        AnimatedLinearProgressIndicator(
             percentage: 0.80, title: 'Postgres', image: 'assets/images/db.png'),
         AnimatedLinearProgressIndicator(
             percentage: 0.84, title: 'MongoDB', image: 'assets/images/db.png'),
