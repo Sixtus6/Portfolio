@@ -24,7 +24,7 @@ class ProjectLinks extends StatelessWidget {
             //     },
             //     icon: SvgPicture.asset('assets/icons/download.svg')),
           ],
-        ),
+        ),  
         const Spacer(),
         TextButton(
             onPressed: () {
