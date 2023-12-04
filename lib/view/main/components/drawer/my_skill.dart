@@ -117,7 +117,7 @@ class MySKills extends StatelessWidget {
         AnimatedLinearProgressIndicator(
             percentage: 0.95, title: 'NodeJS', image: 'assets/images/node.png'),
         AnimatedLinearProgressIndicator(
-            percentage: 0.85,
+            percentage: 0.89,
             title: 'TypeScript',
             image: 'assets/images/ts2.png'),
         AnimatedLinearProgressIndicator(
