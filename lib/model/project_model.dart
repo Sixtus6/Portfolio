@@ -21,9 +21,9 @@ List<Project> projectList = [
   ),
   Project(
       'Xtranslator',
-      'Neumorphic TimeKit is an open-source project that brings together the elegance of a beautifully designed alarm system, an analog clock with a neumorphic touch, and a feature-rich stopwatch. Whether you\'re looking for a functional alarm tool, a stylish desktop clock, or a precise stopwatch, TimeKit has you covered.',
+      'Experience seamless communication with Xtranslator! Convert spoken English into expressive sign language instantly. Record or input your message, and watch it transform into clear sign language gestures. Bridging the gap between hearing and Deaf communities, our user-friendly tool fosters inclusive connections effortlessly.',
       'assets/images/alarm.jpg',
-      'https://github.com/Hamad-Anwar/Neumorphic-Analog-Clockify'),
+      'https://github.com/Sixtus6/Xtranslator'),
   Project(
       'CUI Aider',
       'CUI AIDER is an extraordinary application that brings together augmented reality (AR), a robust student portal, intuitive class management, and a comprehensive GPA system, providing an all-encompassing solution for students.Using AR technology, CUI AIDER offers an immersive experience, allowing users to explore the complete university campus virtually. Through AR, students can visualize buildings, navigate with interactive directions, and gain a better understanding of their surroundings.',
